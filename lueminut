@@ -1,0 +1,14 @@
+28.1.22: Uusi main.js on 40% alkuperäistä main.js:ää (main_alkptoimiva.js) kevyempi! Tämä siksi, koska otteluparit määritellyt lähes ääretön if-lauseke on korvattu funktiolla otteluparit ja sitä seuraavilla funktiokutsuilla.
+         Huom. Promptissa esiintyvä, otteluparin funktion "otteluparit" generoimasta "ottelupari" -listasta ottava random-lauseke on perua täältä: https://www.codegrepper.com/code-examples/javascript/how+to+choose+random+element+from+list+javascript
+22.1.22: Peli toiminnassa.
+
+Tiedossa olevia bugeja (päivitetty 28.1.22):
+- Kun arvaa väärin, ottelupari vaihtuu mutta kertoimet eivät muutu (looginen virhe koodissa).
+
+Pohdittavaksi: 
+ - (DONE! 28.1.22) Miten laatisin seuraavan, pitkän if-lausekkeen for-lausekkeella, jotta säästäisin jatkossa tilaa? Todarista tuttuun tyyliin "kuinka monta otteluparia joukkueet voivat muodostaa (pelaamatta itseään vastaan!!)"
+ - Voisiko while-silmukan if-lauseita yksinkertaistaa esim sisäkkäisillä if-lauseilla?
+ - Lean sovelluskehityksessä mahtaa viitata juuri koodin säilyttämiseen mahdollisimman 1kertaisena. Tästä oli juttua Software Engineering -kurssilla.
+Kehitettäväksi:
+ - (TAJUTTU 27.1.22 (ks foorumi)) Miten tekisin näistä kaikista funktioita, tai oikeammin, komponentteja, ja miten säilön osan komponenteista kirjastomaisesti erillisiin tiedostoihin nyt kun kyseessä pelkkä javascript (onko kuinka helppoa tai mahdollistakaan?)
+
